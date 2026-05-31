@@ -1,0 +1,57 @@
+img {
+    width: 450px;
+    height: auto;
+    margin-top: 1px;
+}
+
+
+body{
+    background-color: #111;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+p{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+#contador{
+
+    font-size: 35px;
+
+    font-weight: bold;
+
+}
+
+#contenido{
+    display: none;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 40px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#portada h1{
+    font-size: 80px;
+}
+
+#portada p{
+    font-size: 35px;
+    margin-top: 20px;
+}
