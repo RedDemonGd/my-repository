@@ -4,17 +4,23 @@
 <head>
     <title>Hola 👀</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #imagen {
+            display: none; /* Oculta la imagen al inicio */
+            margin-top: 20px;
+            max-width: 300px;
+        }
+    </style>
 </head>
 
 <body>
     <div id="portada">
         <img src="Corazon.gif">
 
-
         <h1>Holis Keren :3</h1>
-        <p>Supongo que estás aquí porque decidiste que no quieres hablar más conmigo,
-             lo entiendo y respeto aunque me duela, así que decidí hacer esta página de despedida
-             para inmortalizar esta linda epoca de mi vida junto a ti en el internet, espero que te guste c: </p>
+        <p>lamento que estés aquí, porque eso significa que decidiste que no quieres hablar más conmigo :(,
+             lo entiendo y respeto aunque me duela, pero entonces decidí hacer esta página de despedida
+             para inmortalizar en el internet esta linda epoca de mi vida junto a ti, espero que te guste c: </p>
     
      <button onclick="entrar()">
         Entrar
@@ -23,10 +29,10 @@
     </div>
     
     <div id="contenido">
-
+    <div class="seccion">
     <h1>Gracias por todo &lt;3 </h1>
 
-    <img src="gato.jpg" alt="Un gato adorable">
+    <img src="gato2.gif" alt="Un gato adorable">
 
     <p>
         Quiero que sepas que siempre estaré aquí para ti, aunque no hablemos.
@@ -35,6 +41,9 @@
         Ahora, he decidido dedicarte esta pagína a ti 💕, a lo largo de esta página verás varias cosas sobre ti y
          nosotros en general, como esta imagen de un gato, porque sé que te gustan los gatos y me recuerda a ti cada vez que veo uno xd <br>
          <br>
+         
+     <div class="seccion">
+
          <h2> 
             Banda sonora 🔥
          </h2>
@@ -44,10 +53,10 @@
          espero que te guste y que te traiga buenos recuerdos de nosotros, son 9 cancioncitas, aquí te la dejo mediante
          YouTube :3 <br>
          </p>
-
+    </div>
          <br>
          
-         <a href="https://www.youtube.com/playlist?list=PL9Xo8sYl3n2m1a5j6k7l8n9o0p1q2r3s" target="_blank">
+         <a href="https://www.youtube.com/playlist?list=PL677lwWZqKWa2rzzIsOaN2bDNRiP_zfut" target="_blank">
             <button>
                 Ver playlist ❤️
             </button>
@@ -74,9 +83,135 @@ Cargando...
 <script src="script.js"></script>
 
 <img src="Muñeco.png" alt="Otro gato adorable">
-<p> que puedo decir... El muñeco que me regalaste siempre me acompañará, de alguna forma me hace sentir que te tengo cerca
+<p> que puedo decir... El muñeco que me regalaste siempre me acompañará, de alguna forma me hace sentir que te tengo cerca.
     
 </p>
+<br>
+
+<h2> Obviamente el pintacafé no iba a faltar, una salida muy linda la verdad, me dejé llevar por la ansiedad
+    y la verdad no te hablé mucho ese día, pero me divertí y me gustó compartir ese momento contigo, espero que tú
+     también lo hayas disfrutado c:
+</h2>
+
+<img src="pintacafé.jpeg">
+
+<img src="pintacafe2.jpeg">
+
+<p> el capibara que ahora tengo yo xdd ahí puse un par de cositas</p>
+<img src="pintacafe3.jpeg">
+
+<p> mira (post it, pinzas, maquinilla, y un cosito para el teclado que no se ve ahí):</p>
+
+<img src="capibara.jpeg">
+
+<p> y mi gran obra de arte XD:</p>
+<br>
+<img src="pintacafe4.jpeg">
+
+<p> Lamentablemente no puedo poner fotos nuestras, pues nunca nos tomamos una juntos :/</p>
+<br>
+
+<img src="culera.jpeg">
+
+<p>No que disque perdiste la cuenta? XDDD pues ya ni modo 😔</p>
+<br>
+
+<!-- Botón especial -->
+<button id="boton">mi honesta reacción</button>
+
+<!-- Imagen oculta -->
+<img id="imagen" src="gato3.png" alt="Imagen especial">
+
+<!-- Audio -->
+<audio id="audio" src="ptm.mp3"></audio>
+
+<script>
+    const boton = document.getElementById("boton");
+    const imagen = document.getElementById("imagen");
+    const audio = document.getElementById("audio");
+
+    boton.addEventListener("click", () => {
+        // Mostrar overlay con la imagen
+        imagen.style.display = "flex";
+
+        // Reproducir el audio desde el inicio
+        audio.currentTime = 0;
+        audio.play();
+    });
+
+    // Cando el audio termine, ocultar la imagen
+    audio.addEventListener("ended", () => {
+        imagen.style.display = "none";
+    });
+</script>
+
+<p>Pero bueno son cosas que pasan jajsajaj no importa xd</p>
+
+<h2>Ahora, algunas capturas de mensajes que me hicieron sentir maripositas en el estómago c:</h2>
+
+<img src="conozcamos mejor.jpeg">
+
+<p> Recuerdo la emoción que sentí al leer ese mensaje, estaba jugando con Luis Fortnite y ambos nos pusimos a celebrar XDDDDD</p>
+
+<img src="te quiero.jpeg">
+
+<p>no puedo describir lo feliz que me fui a dormir luego de leer ese mensaje, lindísimo</p>
+
+<img src="besos.jpeg">
+
+<p>"Besos?, BESOS?", así fue mi reacción jajajsa</p>
+
+<img src="te quiero2.jpeg">
+
+<p> y este otro mensaje que me hizo sentir maripositas también, aunque fue el ultimo "te quiero" :/</p>
+
+<h2>Yo después de lo que me dijiste el viernes:</h2>
+<video controls>
+    <source src="Butcher.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+</video>
+<img src="Triste.png">
+<br>>
+<img src="Dexter.jpg">
+<p>De alguna forma nosotros me recuerda a Dexter y Rita xdd</p>
+<br>>
+<h2> Ahora sí...</h2>
+<img src="abrazo.gif"
+<br>>
+
+<p>Hasta acá dejaré la página por ahora, sinceramente quisiera poner más cosas antes de dártelo, pero no me dará el tiempo, periódicamente iré editando
+ esta página para agregar más cositas, así que puedes volver a visitarla de vez en cuando para ver si puse algo nuevo
+ (además, pondré en la página un aviso cuando definitivamente la haya terminado), o simplemente para recordar los buenos momentos que
+  pasamos juntos, por cierto, te conozco, sé que probablemente al ver esto se te venga a la cabeza la frase "el que mucho se despide
+ pocas ganas tiene de irse", no quiero que te preocupes, estoy bien, digo, obviamente estoy pasando por un duelo, porque perdí no solo una
+ potencial linda relación, sino que además perdí a mi única amiga (y la mejor de todas al chile w) y si te digo que estoy bien te mentiría, pero bueno son
+ adversidades de la vida, poco a poco volveré a estar bien supongo <br>
+ <br>
+ Ahora sí que sí, me despido de ti 😔, espero que estés bien, te deseo lo mejor en la vida y ojalá tú también puedas encontrar a alguien
+ que te quiera muchísimo y que te haga sentir cálida, querida y feliz, como tú me hiciste sentir a mí durante el tiempo que estuvimos
+ hablando, gracias por darme la oportunidad de conocerte, nunca te olvidaré definitivamente, una broma acabó en esto, es increíble las
+ casualidades de la vida, seguramente toda la suerte de mi año se fue en conocerte XDD pero bueno, valió la pena, gracias por todo Keren,
+ te quiero, y espero que seas muy feliz &lt;3
+</p>
+<br>
+
+<h2>💬 ¿Quieres decir algo?</h2>
+
+<p>
+Si alguna vez quieres decir algo,
+dejar una opinión sobre la página,
+o simplemente saludar,
+puedes hacerlo aquí.
+</p>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeqRdIXmUDRg9SYFBtQq7qhVZUl72TlPxu6H2Q4lo50IGxlUQ/viewform?usp=publish-editor" target="_blank">
+
+<button>
+✍️ Dejar mensaje
+</button>
+
+</a>
+
 </div>
 </body>
 

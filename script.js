@@ -43,3 +43,9 @@ function entrar(){
     document.getElementById("contenido").style.display = "block";
 
 }
+
+function mensajeSecreto(){
+
+    alert("👀 Encontraste algo.");
+
+}
